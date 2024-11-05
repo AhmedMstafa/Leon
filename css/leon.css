@@ -515,6 +515,7 @@ body {
 /* End Contact */
 
 /* Start Footer */
+
 .footer {
   background-color: var(--secondary-color, #2c4755);
   color: white;
@@ -527,4 +528,5 @@ body {
   font-weight: bold;
   color: var(--main-color, #10cab7);
 }
+
 /* End Footer */
