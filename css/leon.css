@@ -145,9 +145,10 @@ body {
   width: 100%;
 }
 
+/* 
 .header .links:hover .icon span:nth-child(2) {
   width: 100%;
-}
+} */
 
 .header .links ul {
   list-style: none;
@@ -192,8 +193,24 @@ body {
   padding-left: 25px;
 }
 
-.header .links:hover ul {
+/* .header .links:hover ul {
   display: block;
+} */
+
+#btn[type="checkbox"] {
+  display: none;
+}
+
+#btn[type="checkbox"]:checked~label span[name="on-click"]+ul {
+  display: none;
+}
+
+#btn[type="checkbox"]:checked~label span[name="on-click"]+ul {
+  display: block;
+}
+
+#btn[type="checkbox"]:checked~label span[name="on-click"]>:nth-child(2) {
+  width: 100%;
 }
 
 /* End Header */
